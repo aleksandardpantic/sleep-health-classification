@@ -24,12 +24,12 @@ Categorical Cross-Entropy and Categorical Accuracy
 
 ## Results
 
-On unseen data, model predicts correctly in approx. `92%` of cases with Categorical Cross-Entropy loss of `0.47`
+On unseen data, model predicts correctly in approx. `93.3%` of cases with Categorical Cross-Entropy loss of `0.39`
 
 ## Note
 
 Model was built using Keras and scikit-learn libraries.<br>
 Model was tuned by Grid Search from keras-tuner library.<br>
 _Pipeline objects are saved as binary files in `data-pipelines-bin/` directory._
-_Model was saved as `results/model.kears` and visualized in `model/model.png`._
+_Model was saved as `results/model.keras` and visualized in `model/model.png`._
 _Model training history was saved as `results/history-tuned.csv` and final evaluation as `results/evaluation.csv`._
